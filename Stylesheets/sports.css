@@ -1,0 +1,33 @@
+*{
+    box-sizing:border-box
+}   
+.wb-active
+    {
+        border: solid 0.1em white;
+    }
+body,html {
+    height:100%;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth; 
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../Resources/sports.jpg");
+    opacity: 0.;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+.wb-sports{
+    position: relative;
+    clear:both;
+    text-align: left;
+    color:white;
+    top:5em;
+    border:solid 0.01em wheat;
+    box-sizing: content-box;  
+    width: 20em;
+    height: 20em;
+    padding: 1em; 
+    border: 0.1em solid white;
+    margin-left: 5em;
+}
+    
