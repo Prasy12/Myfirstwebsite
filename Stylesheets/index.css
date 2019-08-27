@@ -1,0 +1,59 @@
+*{
+    font-family: 'Roboto Slab', serif;
+
+
+}
+body,html {
+    height:100%;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth; 
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../Resources/homepagepicture.jpg");
+    opacity: 0.;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+.wb-container{
+    max-width: 1200px;
+    margin: 0 auto;    
+}
+.wb-logo{
+    width: 3em;
+    float: left;
+    cursor: pointer;
+   
+}
+.wb-active
+{
+    border: solid 0.1px white;
+}
+
+.wb-nav{
+    float: right;
+}
+
+.wb-nav ul li{
+    display: inline;
+    padding: 10px 20px;
+}
+.wb-nav ul li a{
+    text-decoration: none;
+    line-height: 60px;
+    color:red;    
+}
+.wb-nav ul li a:hover{
+    color: blueviolet;
+}
+.wb-heading{
+    position: relative;
+    clear:both;
+    top: 5em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+
+
+}
+    
