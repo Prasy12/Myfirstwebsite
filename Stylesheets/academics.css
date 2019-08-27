@@ -1,0 +1,36 @@
+*{
+    box-sizing:border-box
+}   
+body,html {
+    height:100%;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth; 
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../Resources/About\ page\ picture.jpg");
+    opacity: 0.;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+.wb-heading
+{
+    position: relative;
+    top: 7em;
+    color :white;
+       text-align: center;
+}
+
+.wb-active
+    {
+        border: solid 0.1em white;
+    }
+
+
+table,td,th{
+    margin-top: 11em;
+    margin-left: auto;
+    margin-right:auto;
+    border: 1px solid white;
+    color:white;
+    width: 50%;
+}
