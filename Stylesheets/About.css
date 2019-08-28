@@ -20,23 +20,29 @@ body,html {
 clear: both;  
 }
 
-.wb-heading{
+.wb-heading1{
     position: relative;
     top: 5em;
     color :white;
-       text-align: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto;
     }
     .wb-heading2{
-        position: relative;
-        top: 6em;
+    position: relative;
+    top: 6em;
     color: white;
-       text-align: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto;
     }
     .wb-paragraph{
-       top: 8em;
+    top: 8em;
     color:white;
-       text-align: center;
-       position: relative;
+    text-align: center;
+    position: relative;
+    margin-left: auto;
+    margin-right:auto;
     }
 
 table,td,th{
