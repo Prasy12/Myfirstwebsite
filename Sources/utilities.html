@@ -1,0 +1,67 @@
+<html>
+<head>
+    <meta name="Viewport" content="width=device-width" content="height=device-height">
+    <title>My Website</title>
+    <link rel="stylesheet" href="../Stylesheets/index.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+
+        <div class="wb-container">
+            <a href="../Sources/index.html"><img src="../Resources/logo.png" alt="logo" class="wb-logo"></a>
+            <nav>
+                <div class="wb-nav">
+                    <ul>
+                        <li class="wb-active"><a href="../Sources/index.html">Home</a></li>
+                        <li><a href="../Sources/About.html">About</a></li>
+                        <li><a href="../Sources/Professionalachievements.html">Professional Achievements</a></li>
+                        <li><a href="../Sources/Academics.html">Academics</a></li>
+                        <li><a href="../Sources/Sports.html">Sports</a></li>
+                        <li><a href="../Sources/gallery.html">Gallery</a></li>
+                        <li><a href="../Sources/Utilities.html">Utilities</a></li>
+                        <li><a href="../Sources/Contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+           
+                    <script >
+                            function converter(){
+                            var dollar = parseInt(document.getElementById('dollar').value);
+                            var convert = document.getElementById('convert').value;
+                            var cv = document.getElementById('cv12');
+                            if(convert == 1){
+                                cv.value = dollar * 110.76;
+                              cv.type = "text";
+                            }
+                            if(convert == 2){
+                                cv.value = dollar * 64.35;
+                              cv.type = "text";
+                            }
+                                            
+                          }
+                        </script>
+                         <div class="wb-container"></div>
+                         <section class="wb-headingconvertor">
+                                <h1>Hi! </h1>
+                                <h4>Leave your message below! </h4>
+                                <form action="#" method="post" name="cc">
+                                    
+                                        USD: <input id="dollar" type="text" name="dollar" ><br>
+                                        Convert to: <select name="convert" id ="convert">
+                                          <option value="0">Select the Currency</option>
+                                          <option value="1">PKR</option>
+                                          <option value="2">INR</option>
+                                          </select><br>
+                                        <input type="button" name="submit" value="Convert" onclick="converter()">
+                                      </form>
+                                      <input type="hidden" name="cv" id="cv12" readonly />
+
+                                      </div>
+                        
+                                    </section>
+                         </div>
+            
+        </div>
+    </header>
