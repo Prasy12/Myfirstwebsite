@@ -30,9 +30,12 @@ body,html {
 {
     border: solid 0.1px white;
 }
-
 .wb-nav{
+    width: 100%
+}
+.wb-nav ul{
     float: right;
+   
 }
 
 .wb-nav ul li{
@@ -58,4 +61,28 @@ body,html {
 
 
 }
+@media only screen and (max-width:994px){
+
+    .wb-nav ul li{
+        display: inline;
+        padding:8px 15px;
+    }
+}
+    
+    @media only screen and (max-width:)   {
+        .wb-nav ul li{
+            display: inline;
+            padding:6px 12px;
+        }
+    }
+    @media only screen and (max-width:px)   {
+        .wb-nav ul li{
+            display: inline;
+            padding:6px 12px;
+        }
+    }
+    
+    
+    
+
     
