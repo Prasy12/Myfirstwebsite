@@ -6,7 +6,7 @@ body,html {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth; 
-    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("../Resources/Academics.JPG");
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5)),url("../Resources/Academics.JPG");
     opacity: 0.;
     background-position: center;
     background-size: cover;
@@ -26,11 +26,17 @@ body,html {
     }
 
 
-table,td,th{
-    margin-top: 11em;
-    margin-left: auto;
-    margin-right:auto;
-    border: 1px solid white;
-    color:white;
-    width: 50%;
-}
+    table {
+        margin-top: 12em;
+        border-collapse: collapse;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color:rgba(16, 142, 173, 0.774);
+        
+    }
+      td, th {
+        border: 1px solid white;
+        text-align: left;
+        padding: 0.5em;
+      }
