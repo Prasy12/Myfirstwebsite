@@ -11,7 +11,7 @@ body,html {
     padding: 0;
     scroll-behavior: smooth; 
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../Resources/sports.jpg");
-    opacity: 0.;
+    
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
