@@ -1,6 +1,10 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
+    <meta name="description" content="Personal Website">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="Prasanna">
   <meta name="Viewport" content="width=device-width" content="height=device-height">
   <title>My Website</title>
   <link rel="stylesheet" href="../Stylesheets/index.css" type="text/css">
@@ -8,87 +12,86 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
 </head>
 
+<body onload="updateTimeZone()">
+  <header>
 
-<header>
+    <div class="wb-container">
+      <a href="../Sources/index.html"><img src="../Resources/logo.png" alt="logo" class="wb-logo"></a>
+      <nav>
+        <div class="wb-nav">
+          <ul>
+            <li><a href="../Sources/index.html">Home</a></li>
+            <li><a href="../Sources/About.html">About</a></li>
+            <li><a href="../Sources/Professionalachievements.html">Professional Achievements</a></li>
+            <li><a href="../Sources/Academics.html">Academics</a></li>
+            <li><a href="../Sources/Sports.html">Sports</a></li>
+            <li><a href="../Sources/gallery.html">Gallery</a></li>
+            <li class="wb-active"><a href="../Sources/utilities.html">Utilities</a></li>
+            <li><a href="../Sources/Contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
 
+    </div>
+  </header>
+
+
+
+
+  <!--Timezone Convertor-->
   <div class="wb-container">
-    <a href="../Sources/index.html"><img src="../Resources/logo.png" alt="logo" class="wb-logo"></a>
-    <nav>
-      <div class="wb-nav">
-        <ul>
-          <li><a href="../Sources/index.html">Home</a></li>
-          <li><a href="../Sources/About.html">About</a></li>
-          <li><a href="../Sources/Professionalachievements.html">Professional Achievements</a></li>
-          <li><a href="../Sources/Academics.html">Academics</a></li>
-          <li><a href="../Sources/Sports.html">Sports</a></li>
-          <li><a href="../Sources/gallery.html">Gallery</a></li>
-          <li class="wb-active"><a href="../Sources/utilities.html">Utilities</a></li>
-          <li><a href="../Sources/Contact.html">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-
-  </div>
-</header>
 
 
-<div class="wb-container">
-  <div class="wb-currency">
-    <h2 class="wb-currencyheading">Currency Calculator</h2>
-    <p class="wb-lead"><b>From</b></p>
-    <form class="wb-formgroup">
-      <div class="wb-formgroupinput">
-        <input type="number" class="form-control" id="amount" />
-        <select class="form-control" id="currency-1" required>
-          <option>INR</option>
-          <option>EUR</option>
-          <option>USD</option>
-        </select>
-      </div>
-      <p class="wb-lead"><b>To</b></p>
-      <div>
-        <select class="form-control" id="currency-2" required>
-          <option>EUR</option>
-          <option>USD</option>
-          <option>INR</option>
-        </select>
-      </div>
+    <div class="wb-timebox">
+      <h2>Timezone Convertor</h1>
+        <div id="ConversionResultsDIV"></div>
 
-      <br>
-      <button class="btn calculate-btn btn-primary mb-2">Show me the result!</button>
-    </form>
-    <div class="wb-result">
-      <p>
-        <span class="given-amount"></span>
-        <span class="base-currency"></span>
-        <span class="final-result"></span>
-        <span class="second-currency"></span>
-      </p>
+        <form name="form1">
+          <select size="5" name="lstCity" onchange="updateTimeZone();">
+            <option value="60" selected>Berlin
+            <option value="0">London
+            <option value="-300">New York 
+          </select>
+        </form>
     </div>
   </div>
-</div>
+  </div>
 
-<!--Timezone Convertor-->
+  <div class="wb-container">
+    <div class="wb-currency">
+      <h2 class="wb-currencyheading">Currency Calculator</h2>
+      <p class="wb-lead"><b>From</b></p>
+      <form class="wb-formgroup">
+        <div class="wb-formgroupinput">
+          <input type="number" class="form-control" id="amount" />
+          <select class="form-control" id="currency-1" required>
+            <option>INR</option>
+            <option>EUR</option>
+            <option>USD</option>
+          </select>
+        </div>
+        <p class="wb-lead"><b>To</b></p>
+        <div>
+          <select class="form-control" id="currency-2" required>
+            <option>EUR</option>
+            <option>USD</option>
+            <option>INR</option>
+          </select>
+        </div>
 
-<body onload="updateTimeZone()">
-
-  <div id="ConversionResultsDIV"></div>
-
-  <form name="form1">
-    <select size="5" name="lstCity" onchange="updateTimeZone();">
-      <option value="60" selected>Berlin
-      <option value="330">Bombay
-      <option value="0">London
-      <option value="180">Moscow
-      <option value="-300">New York (EST)
-      <option value="60">Paris
-      <option value="-480">San Francisco (PST)
-      <option value="600">Sydney
-    </select>
-
-
-  </form>
-</div>
+        <br>
+        <button class="btn calculate-btn btn-primary mb-2">Show me the result!</button>
+      </form>
+      <div class="wb-result">
+        <p>
+          <span class="given-amount"></span>
+          <span class="base-currency"></span>
+          <span class="final-result"></span>
+          <span class="second-currency"></span>
+        </p>
+      </div>
+    </div>
+  </div>
 </body>
 
 
