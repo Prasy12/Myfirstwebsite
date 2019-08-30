@@ -3,24 +3,53 @@
 
 
 }
+.wb-timebox
+{
+    border: solid white;
+    clear: both;
+    width: 20%;
+    margin: auto;
+    background: silver;
+}
+.wb-timebox h2
+{
+    clear: both;
+    text-align: center;
+    color: black;
+    size: 2em;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#ConversionResultsDIV
+{
+    clear: both;
+    text-align:left;
+    color:black;
+    
+        
+}
+
 .wb-active
     {
         border: solid 0.1em white;
     }
 .wb-currency
 {
-    margin-left: 10em;
-    margin-top: 8em;
-    float: left;
     border: solid white;
-    
+    clear: both;
+    width: 20%;
+    margin: auto;
+    margin-top: 1em;
+    background: silver;
 }
 
 .wb-currencyheading
 {
     clear: both;
     text-align: center;
-    color: white;
+    color: black;
     size: 2em;
     margin-top: auto;
     margin-left: auto;
@@ -32,7 +61,7 @@
 {
     clear: both;
     text-align: center;
-    color: white;
+    color: black;
     size: 2em;
     margin-top: 1em;
     margin-left: auto;
@@ -61,23 +90,7 @@
 }
 .wb-result{
     
-    color: white;
+    color: black;
     text-align: center;
 }
-#ConversionResultsDIV
-{
-    clear: both;
-    text-align:center;
-    color:white;
-    
-}
-.wb-timeheading
-{
-    text-align: center;
-    position: relative;
-}
-.time{
-    text-align: center;
-    position: relative;
 
-}
