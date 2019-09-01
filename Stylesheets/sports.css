@@ -30,4 +30,13 @@ body,html {
     border: 0.1em solid white;
     margin-left: 5em;
 }
+@media only screen and (max-width: 800px) 
+ {
+     body,html
+     {
+        height:auto;
+        width: 100%;
+        height: 100%;
+     }
+ }  
     
