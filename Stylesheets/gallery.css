@@ -1,86 +1,39 @@
-.wb-galleryheading
-{
-    clear: both;
-    text-align: center;
-    color: white;
-    size: 2em;
-    margin-top: 5em;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1em;
-    
-}
-#slider-container {
-    position: cover;
-    height: 10.25em;
-    width: 100%;
-    max-width: 62.500em;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    overflow: hidden;
-    box-shadow: 0 0 0.938em #888;
+
+.wb-gallery {
+  padding:3em;
+  background:#f5deb3
   }
   
-  #slider-scroller {
-    position: cover;
-    top: 0;
-    left: 0;
-    width: calc(16.250em* 6);
-    transition: all 2s ease;
-  }
+  .wb-gallery h1 {
+  padding:.5em;
+  font-size:2.5em;
+  font-weight:700;
+  text-align:center;
   
-  .slider-item {
-    width: 10.750em;
-    height: 6.875em;
-    display: inline-block;
-    margin: 1.250em;
-    position: relative;
   }
-  
-  .slider-item img {
-    position: center;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    max-width: 12.500em;
-    max-height: 8.500em;
-  }
-  @media only screen and (max-width: 800px) 
- {
-     body,html
-     {
-       
-        width: 100%;
-        height: 100%;
-     }
-     .slider-item {
-      width: 6.750em;
-      height:4.875em;
-      display: inline-block;
-      
-      position: relative;
+  .responsive {
+    max-width:100%;
+    width:100%;
+    height:auto
     }
-     .slider-item img {
-      position: center;
-      width: 100%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      max-width: 10.500em;
-      max-height: 6.500em;
-     }
-     .wb-galleryheading
-     {
-       font-size: 0;
-     }
-     #slider-scroller {
-      position: center;
-      top: 0;
-      left: 0;
-      width: calc(8.250em* 6);
-      transition: all 2s ease;
-     }
-    }
-    
+  #slideshow img{
+    width: 25em; 
+    height: 26em;
+  }
+  
+  #slideshow {
+  margin:5em auto;
+  position:relative;
+  width:25em;
+  height:27.08em;
+  padding:0.625em;
+  box-shadow:0 0 1.25em rgba(0,0,0,0.4)
+  }
+  
+  #slideshow > div {
+  position:absolute;
+  top:0.625em;
+  left:0.625em;
+  right:0.625em;
+  bottom:0.625em;
+  }
