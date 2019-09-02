@@ -61,21 +61,46 @@ clear: both;
         text-align: left;
         padding: 0.5em;
       }
-      @media only screen and (max-width: 600px) 
+      @media only screen and (max-width: 800px) 
       {
           body,html
           {
-             height:auto;
+            
              width: 100%;
              height: 100%;
           }
-          .table,td,th
+          table
           {
-              height: auto;
               width: 100%;
-
+              margin-top: 4em;
+             
+          }
+          .wb-heading2,.wb-paragraph
+          {
+              margin-top: 2em;
+              font-size: 0em;
+              
+          }
+          .wb-heading1
+          {
+              
+              font-size: 1.3em;
           }
       }  
-
+      @media only screen and (max-width: 500px) 
+      {
+        
+         table
+         {
+             font-size: 10px;
+             
+         }
+         .wb-heading1
+         {
+            top: 6em;
+            margin-bottom: 6em;
+             font-size: 1em;
+         }
+      }
       
       
