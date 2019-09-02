@@ -13,8 +13,7 @@ body,html {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    
-    
+      
     }
 .wb-timebox
 {
@@ -76,7 +75,7 @@ body,html {
     clear: both;
     text-align: center;
     color: black;
-    size: 2em;
+    
     margin-top: 1em;
     margin-left: auto;
     margin-right: auto;
@@ -87,7 +86,7 @@ body,html {
     clear: both;
     text-align: center;
     margin-top: 1em;
-
+    
 }
 .wb-formgroupinput
 {
@@ -107,6 +106,10 @@ body,html {
     color: black;
     text-align: center;
 }
+input[type="number"]
+     {
+        font-size: 4em;
+     }
 
 @media only screen and (max-width: 800px) 
  {
@@ -121,7 +124,7 @@ body,html {
      }
      input[type="number"]
      {
-        font-size: 1.2em
+        font-size: 1.2em;
      }
     }  
     @media only screen and (max-width: 500px) 
@@ -140,6 +143,6 @@ body,html {
      }
      input[type="number"]
      {
-        font-size: 0.5em
+        font-size: 0.5em;
      }
      
