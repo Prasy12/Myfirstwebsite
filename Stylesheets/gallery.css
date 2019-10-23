@@ -3,7 +3,10 @@
   padding:3em;
   background:#f5deb3
   }
-  
+  .wb-active
+    {
+        border: solid 0.1em white;
+    }
   .wb-gallery h1 {
   padding:.5em;
   font-size:2.5em;
