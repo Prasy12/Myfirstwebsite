@@ -22,7 +22,10 @@ body,html {
     
  }   
  
-  
+ .wb-active
+ {
+     border: solid 0.1em white;
+ }
   
   .column {
     float: left;
