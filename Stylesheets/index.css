@@ -28,9 +28,9 @@ body,html {
    
 }
 .wb-active
-{
-    border: solid 0.0.006em white;
-}
+    {
+        border: solid 0.1em white;
+    }
 .wb-nav{
     width: 100%;
 }
