@@ -56,6 +56,7 @@ body,html {
     margin: auto;
     font-size: 0.8em;
     background: silver;
+    margin-top: 2em;
 }
 
 .wb-currencyheading
@@ -75,10 +76,10 @@ body,html {
     clear: both;
     text-align: center;
     color: black;
-    
     margin-top: 1em;
     margin-left: auto;
     margin-right: auto;
+    
     
 }
 
@@ -91,7 +92,6 @@ body,html {
 .wb-formgroupinput
 {
     clear: both;
-    
     text-align: center;
 }
 .wb-convertheading
@@ -108,7 +108,9 @@ body,html {
 }
 input[type="number"]
      {
-        font-size: 4em;
+        min-width:20%;
+        height:50px;
+        font-size:5em;
      }
 
 @media only screen and (max-width: 800px) 
