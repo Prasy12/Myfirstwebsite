@@ -55,8 +55,6 @@ function convertCurrency(event) {
   var to = secondCurrencyInput.value;
   var result = 0;
 
-
-  
   try{
     if (from == to){
       result = amount;
@@ -68,13 +66,8 @@ function convertCurrency(event) {
     result = amount * (1 / crrncy[to][from]);
     
   }
-  
-          
+      
   result = result.toFixed(3);
-  
-  
-
-  
   toShowAmount.innerHTML = amount;
   toShowBase.textContent = from + ' = ';
   toShowSecond.textContent = to;
@@ -82,7 +75,6 @@ function convertCurrency(event) {
 }
 
 btn.addEventListener('click', convertCurrency);
-
 var timeDiff;
 var selectedCity;
 var daylightSavingsAdjust = 0;
