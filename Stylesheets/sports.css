@@ -11,25 +11,22 @@ body,html {
     padding: 0;
     scroll-behavior: smooth; 
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../Resources/sports.jpg");
-    
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     }
-.wb-sports{
+.wb-sportstext{
     position: relative;
     clear:both;
     text-align: left;
     color:white;
     top:6em;
-    
-    
     width: 20em;
     height: 20em;
     padding: 1em; 
-    
     margin-left: 5em;
-    
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 102), 0 5px 5px 0 rgba(102, 51, 74, 100);
+   
 }
 @media screen and (max-width: 800px) 
  {
