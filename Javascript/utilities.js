@@ -60,7 +60,8 @@ function convertCurrency(event) {
   try{
     if (from == to){
       result = amount;
-    } else {
+    }
+     else {
      result = amount * crrncy[from][to];
   }
   }
