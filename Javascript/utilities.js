@@ -1,3 +1,5 @@
+var timeDiff;
+var selectedCity;
 function updateTimeZone(){
   var lstCity = document.form1.lstCity;
   timeDiff = lstCity.options[lstCity.selectedIndex].value;
@@ -75,8 +77,7 @@ function convertCurrency(event) {
 }
 
 btn.addEventListener('click', convertCurrency);
-var timeDiff;
-var selectedCity;
-var daylightSavingsAdjust = 0;
+
+
 
 
