@@ -88,6 +88,7 @@ body,html {
     text-align: center;
     margin-top: 1em;
     
+    
 }
 .wb-formgroupinput
 {
@@ -110,7 +111,10 @@ input[type="number"]
      {
         min-width:20%;
         height:50px;
-        font-size:5em;
+     }
+     #amount
+     {
+        font-size:10px;
      }
 
 @media only screen and (max-width: 800px) 
