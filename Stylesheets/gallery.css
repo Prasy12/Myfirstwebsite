@@ -44,3 +44,23 @@ body,html
   right:0.625em;
   bottom:0.625em;
   }
+
+  @media only screen and (max-width: 800px) 
+ {
+       
+  #slideshow {
+  margin-left: 10em;
+  position:relative;
+  
+  }
+ } 
+   
+ @media only screen and (max-width: 500px)
+ {
+  #slideshow {
+    margin-left: 3em;
+    position:relative;
+    
+    }
+  
+ } 
