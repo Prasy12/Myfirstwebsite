@@ -1,7 +1,11 @@
 
+body,html
+{
+  background:grey;
+}
 .wb-gallery {
   padding:3em;
-  background:#f5deb3
+  
   }
   .wb-active
     {
@@ -20,15 +24,15 @@
     height:auto
     }
   #slideshow img{
-    width: 25em; 
-    height: 26em;
+    width: 20em; 
+    height: 20em;
   }
   
   #slideshow {
-  margin:5em auto;
+  margin-left: 28em;
   position:relative;
-  width:25em;
-  height:27.08em;
+  width:20em;
+  height:20em;
   padding:0.625em;
   box-shadow:0 0 1.25em rgba(0,0,0,0.4)
   }
