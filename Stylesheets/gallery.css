@@ -44,7 +44,19 @@ body,html
   right:0.625em;
   bottom:0.625em;
   }
+  @media only screen and (max-width: 1010px) 
+  {
+    #slideshow {
+      margin-left: 18em;
+      position:relative;
+      width:20em;
+      height:20em;
+      padding:0.625em;
+      box-shadow:0 0 1.25em rgba(0,0,0,0.4)
+      }
+      
 
+  }
   @media only screen and (max-width: 800px) 
  {
        
