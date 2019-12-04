@@ -12,6 +12,7 @@ body,html
         border: solid 0.1em white;
     }
   .wb-gallery h1 {
+    color: white;
   padding:.5em;
   font-size:2.5em;
   font-weight:700;
