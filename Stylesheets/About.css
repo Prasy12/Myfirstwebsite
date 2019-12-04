@@ -60,7 +60,7 @@ clear: both;
         text-align: left;
         padding: 0.5em;
       }
-      @media only screen and (max-width: 800px) 
+      @media only screen and (max-width: 910px) 
       {
           body,html
           {
